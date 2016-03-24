@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		7477F3241CA2F496005F6D3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7477F3231CA2F496005F6D3A /* AppDelegate.swift */; };
-		7477F3261CA2F496005F6D3A /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7477F3251CA2F496005F6D3A /* FirstViewController.swift */; };
-		7477F3281CA2F496005F6D3A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7477F3271CA2F496005F6D3A /* SecondViewController.swift */; };
+		7477F3261CA2F496005F6D3A /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7477F3251CA2F496005F6D3A /* MapViewController.swift */; };
+		7477F3281CA2F496005F6D3A /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7477F3271CA2F496005F6D3A /* ListViewController.swift */; };
 		7477F32B1CA2F496005F6D3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7477F3291CA2F496005F6D3A /* Main.storyboard */; };
 		7477F32D1CA2F496005F6D3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7477F32C1CA2F496005F6D3A /* Assets.xcassets */; };
 		7477F3301CA2F496005F6D3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7477F32E1CA2F496005F6D3A /* LaunchScreen.storyboard */; };
 		7477F33B1CA2F497005F6D3A /* StreetArtViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7477F33A1CA2F497005F6D3A /* StreetArtViewTests.swift */; };
 		7477F3461CA2F497005F6D3A /* StreetArtViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7477F3451CA2F497005F6D3A /* StreetArtViewUITests.swift */; };
+		74952D311CA40651008AEA8F /* FavouritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74952D301CA40651008AEA8F /* FavouritesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +38,8 @@
 /* Begin PBXFileReference section */
 		7477F3201CA2F496005F6D3A /* StreetArtView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StreetArtView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7477F3231CA2F496005F6D3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7477F3251CA2F496005F6D3A /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		7477F3271CA2F496005F6D3A /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		7477F3251CA2F496005F6D3A /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		7477F3271CA2F496005F6D3A /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		7477F32A1CA2F496005F6D3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7477F32C1CA2F496005F6D3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7477F32F1CA2F496005F6D3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +50,7 @@
 		7477F3411CA2F497005F6D3A /* StreetArtViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StreetArtViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7477F3451CA2F497005F6D3A /* StreetArtViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreetArtViewUITests.swift; sourceTree = "<group>"; };
 		7477F3471CA2F497005F6D3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74952D301CA40651008AEA8F /* FavouritesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavouritesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +102,9 @@
 			isa = PBXGroup;
 			children = (
 				7477F3231CA2F496005F6D3A /* AppDelegate.swift */,
-				7477F3251CA2F496005F6D3A /* FirstViewController.swift */,
-				7477F3271CA2F496005F6D3A /* SecondViewController.swift */,
+				7477F3251CA2F496005F6D3A /* MapViewController.swift */,
+				7477F3271CA2F496005F6D3A /* ListViewController.swift */,
+				74952D301CA40651008AEA8F /* FavouritesViewController.swift */,
 				7477F3291CA2F496005F6D3A /* Main.storyboard */,
 				7477F32C1CA2F496005F6D3A /* Assets.xcassets */,
 				7477F32E1CA2F496005F6D3A /* LaunchScreen.storyboard */,
@@ -259,9 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7477F3281CA2F496005F6D3A /* SecondViewController.swift in Sources */,
+				7477F3281CA2F496005F6D3A /* ListViewController.swift in Sources */,
+				74952D311CA40651008AEA8F /* FavouritesViewController.swift in Sources */,
 				7477F3241CA2F496005F6D3A /* AppDelegate.swift in Sources */,
-				7477F3261CA2F496005F6D3A /* FirstViewController.swift in Sources */,
+				7477F3261CA2F496005F6D3A /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,6 +492,7 @@
 				7477F34C1CA2F497005F6D3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7477F34D1CA2F497005F6D3A /* Build configuration list for PBXNativeTarget "StreetArtViewTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +501,7 @@
 				7477F34F1CA2F497005F6D3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7477F3501CA2F497005F6D3A /* Build configuration list for PBXNativeTarget "StreetArtViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +510,7 @@
 				7477F3521CA2F497005F6D3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
