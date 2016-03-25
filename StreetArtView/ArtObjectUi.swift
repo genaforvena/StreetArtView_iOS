@@ -19,4 +19,18 @@ class ArtObjectUi {
     var lng: Double?
     var address: String?
     var isFavourite: Bool?
+    
+    init(realmObject: RealmArtObject) {
+        id = realmObject.id
+        address = realmObject.location?.address
+        name = realmObject.name
+        authors = realmObject.authors.map({realmAuthor in
+                        AuthorUi(realmObject: realmAuthor)})
+        description = realmObject.description
+        thumbPicUrl = realmObject.thumbPicUrl
+        picsUrl = realmObject.picUrls.map({realmString in realmString.value})
+        lat = realmObject.location?.lat
+        lng = realmObject.location?.lng
+        isFavourite = realmObject.isFavourite
+    }
 }

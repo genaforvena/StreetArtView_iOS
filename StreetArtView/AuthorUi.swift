@@ -12,4 +12,10 @@ class AuthorUi {
     var id: String?
     var name: String?
     var photoUrl: String?
+    
+    init(realmObject: RealmAuthor) {
+        id = realmObject.id
+        name = realmObject.name
+        photoUrl = realmObject.photo
+    }
 }
