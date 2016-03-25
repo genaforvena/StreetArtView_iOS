@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		51A2B9E08B2C77A1E94BF01A /* Pods_StreetArtView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 653058D61152753E08F562C8 /* Pods_StreetArtView.framework */; };
 		67957A3039E1C183F9A8EF40 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5CA3322654EF9E9666D4106 /* Pods.framework */; };
 		7416BE701CA52C1400A0B33C /* RealmArtObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7416BE6F1CA52C1400A0B33C /* RealmArtObject.swift */; };
 		7416BE721CA52DA800A0B33C /* RealmAuthor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7416BE711CA52DA800A0B33C /* RealmAuthor.swift */; };
@@ -14,6 +15,7 @@
 		7416BE761CA52E3B00A0B33C /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7416BE751CA52E3B00A0B33C /* DataSource.swift */; };
 		7416BE7A1CA5315F00A0B33C /* ArtObjectUi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7416BE791CA5315F00A0B33C /* ArtObjectUi.swift */; };
 		7416BE7C1CA5321000A0B33C /* AuthorUi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7416BE7B1CA5321000A0B33C /* AuthorUi.swift */; };
+		7416BE7E1CA55DB200A0B33C /* RealmString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7416BE7D1CA55DB200A0B33C /* RealmString.swift */; };
 		7477F3241CA2F496005F6D3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7477F3231CA2F496005F6D3A /* AppDelegate.swift */; };
 		7477F3261CA2F496005F6D3A /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7477F3251CA2F496005F6D3A /* MapViewController.swift */; };
 		7477F3281CA2F496005F6D3A /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7477F3271CA2F496005F6D3A /* ListViewController.swift */; };
@@ -44,12 +46,14 @@
 
 /* Begin PBXFileReference section */
 		461015211BC79E95454E2333 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		653058D61152753E08F562C8 /* Pods_StreetArtView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StreetArtView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7416BE6F1CA52C1400A0B33C /* RealmArtObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmArtObject.swift; sourceTree = "<group>"; };
 		7416BE711CA52DA800A0B33C /* RealmAuthor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmAuthor.swift; sourceTree = "<group>"; };
 		7416BE731CA52DE900A0B33C /* RealmLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmLocation.swift; sourceTree = "<group>"; };
 		7416BE751CA52E3B00A0B33C /* DataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
 		7416BE791CA5315F00A0B33C /* ArtObjectUi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtObjectUi.swift; sourceTree = "<group>"; };
 		7416BE7B1CA5321000A0B33C /* AuthorUi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthorUi.swift; sourceTree = "<group>"; };
+		7416BE7D1CA55DB200A0B33C /* RealmString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmString.swift; sourceTree = "<group>"; };
 		7477F3201CA2F496005F6D3A /* StreetArtView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StreetArtView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7477F3231CA2F496005F6D3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7477F3251CA2F496005F6D3A /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
@@ -75,6 +79,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				67957A3039E1C183F9A8EF40 /* Pods.framework in Frameworks */,
+				51A2B9E08B2C77A1E94BF01A /* Pods_StreetArtView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				B5CA3322654EF9E9666D4106 /* Pods.framework */,
+				653058D61152753E08F562C8 /* Pods_StreetArtView.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -127,6 +133,7 @@
 				7416BE6F1CA52C1400A0B33C /* RealmArtObject.swift */,
 				7416BE711CA52DA800A0B33C /* RealmAuthor.swift */,
 				7416BE731CA52DE900A0B33C /* RealmLocation.swift */,
+				7416BE7D1CA55DB200A0B33C /* RealmString.swift */,
 			);
 			name = realmModels;
 			sourceTree = "<group>";
@@ -134,6 +141,9 @@
 		7416BE771CA5313C00A0B33C /* ui */ = {
 			isa = PBXGroup;
 			children = (
+				7477F3251CA2F496005F6D3A /* MapViewController.swift */,
+				7477F3271CA2F496005F6D3A /* ListViewController.swift */,
+				74952D301CA40651008AEA8F /* FavouritesViewController.swift */,
 				7416BE781CA5314500A0B33C /* model */,
 			);
 			name = ui;
@@ -176,9 +186,6 @@
 				7416BE771CA5313C00A0B33C /* ui */,
 				7416BE6D1CA52BE600A0B33C /* store */,
 				7477F3231CA2F496005F6D3A /* AppDelegate.swift */,
-				7477F3251CA2F496005F6D3A /* MapViewController.swift */,
-				7477F3271CA2F496005F6D3A /* ListViewController.swift */,
-				74952D301CA40651008AEA8F /* FavouritesViewController.swift */,
 				7477F3291CA2F496005F6D3A /* Main.storyboard */,
 				7477F32C1CA2F496005F6D3A /* Assets.xcassets */,
 				7477F32E1CA2F496005F6D3A /* LaunchScreen.storyboard */,
@@ -377,7 +384,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StreetArtView/Pods-StreetArtView-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -389,6 +396,7 @@
 			files = (
 				7416BE7C1CA5321000A0B33C /* AuthorUi.swift in Sources */,
 				7416BE741CA52DE900A0B33C /* RealmLocation.swift in Sources */,
+				7416BE7E1CA55DB200A0B33C /* RealmString.swift in Sources */,
 				7477F3281CA2F496005F6D3A /* ListViewController.swift in Sources */,
 				7416BE701CA52C1400A0B33C /* RealmArtObject.swift in Sources */,
 				7416BE7A1CA5315F00A0B33C /* ArtObjectUi.swift in Sources */,

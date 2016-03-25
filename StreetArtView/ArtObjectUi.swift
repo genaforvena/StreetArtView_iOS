@@ -9,14 +9,14 @@
 import Foundation
 
 class ArtObjectUi {
-    var id: String
-    var name: String
-    var authors: List<AuthorUi>
-    var description: String
-    var thumbPicUrl: String
-    var picsUrl: List<String>
-    var lat: Double
-    var lng: Double
-    var address: String
-    var isFavourite: Bool
+    var id: String?
+    var name: String?
+    var authors: Array<AuthorUi>?
+    var description: String?
+    var thumbPicUrl: String?
+    var picsUrl: Array<String>?
+    var lat: Double?
+    var lng: Double?
+    var address: String?
+    var isFavourite: Bool?
 }

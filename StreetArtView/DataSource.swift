@@ -7,11 +7,13 @@
 //
 
 import Foundation
+import RealmSwift
+import RxSwift
 
 protocol IDataSource {
-    func insert(artWorks: List<ArtWork>)
-    func listArtObjects() -> Observable<List<ArtObjectUi>>
+//    func insert(artWorks: List<ArtWork>)
+    func listArtObjects() -> Observable<Array<ArtObjectUi>>
     func getArtObject(id: String) -> ArtObjectUi
-    func listFavourites() -> Observable<List<ArtObjectUi>>
+    func listFavourites() -> Observable<Array<ArtObjectUi>>
     func changeFouriteStatus(artObjectId: String) -> Bool
 }

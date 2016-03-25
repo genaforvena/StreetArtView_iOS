@@ -24,10 +24,30 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>RxBlocking.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>RxCocoa.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>RxSwift.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>RxTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>1A0E0D8B30F67693E85BE82C1BD2B59B</key>
+		<key>017C6AF04FA1D0FEA2EFE215003AF54E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -37,12 +57,32 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>EAE826E827F45BE6C6C3085596B48A2A</key>
+		<key>395DBE5B96DE3CC6123FF20C7EB1F30B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>FA9601713BF40411928F9C1CD59EFB06</key>
+		<key>69FB7188EA94F6EA12B0CCE29935B7C1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>75C051AB8BE55B1C71A0386D718E121D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>78141AE0AD5337E81F1F630A398FC9EC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A7BB0055DD725B26175A68FC8929C06C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CEACEE37A21393E1C391088ACD26C2A4</key>
 		<dict>
 			<key>primary</key>
 			<true/>

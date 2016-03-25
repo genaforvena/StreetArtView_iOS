@@ -9,7 +9,7 @@
 import Foundation
 
 class AuthorUi {
-    var id: String
-    var name: String
-    var photoUrl: String
+    var id: String?
+    var name: String?
+    var photoUrl: String?
 }

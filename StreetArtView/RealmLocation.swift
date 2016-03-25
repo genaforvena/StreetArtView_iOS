@@ -10,9 +10,9 @@ import Foundation
 import RealmSwift
 
 class RealmLocation: Object {
-    dynamic var address?
-    dynamic var lat?
-    dynamic var lng?
+    dynamic var address: String?
+    dynamic var lat: Double = 0
+    dynamic var lng: Double = 0
     
     override static func primaryKey() -> String? {
         return "id"
