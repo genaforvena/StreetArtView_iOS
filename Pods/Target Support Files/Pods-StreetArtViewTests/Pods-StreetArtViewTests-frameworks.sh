@@ -84,20 +84,10 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "Pods/AFNetworking.framework"
-  install_framework "Pods/Realm.framework"
-  install_framework "Pods/RealmSwift.framework"
-  install_framework "Pods/RxBlocking.framework"
-  install_framework "Pods/RxCocoa.framework"
-  install_framework "Pods/RxSwift.framework"
-  install_framework "Pods/RxTests.framework"
+  install_framework "Pods-StreetArtViewTests/RxSwift.framework"
+  install_framework "Pods-StreetArtViewTests/RxTests.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "Pods/AFNetworking.framework"
-  install_framework "Pods/Realm.framework"
-  install_framework "Pods/RealmSwift.framework"
-  install_framework "Pods/RxBlocking.framework"
-  install_framework "Pods/RxCocoa.framework"
-  install_framework "Pods/RxSwift.framework"
-  install_framework "Pods/RxTests.framework"
+  install_framework "Pods-StreetArtViewTests/RxSwift.framework"
+  install_framework "Pods-StreetArtViewTests/RxTests.framework"
 fi

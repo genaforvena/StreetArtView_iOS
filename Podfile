@@ -4,11 +4,18 @@ platform :ios, '8.0'
 
 use_frameworks!
 
-pod 'RealmSwift'
-pod 'AFNetworking'
-pod 'RxSwift'
-pod 'RxCocoa'
-pod 'RxBlocking'
-pod 'RxTests'
+target 'StreetArtView' do
+    
+    pod 'RealmSwift'
+    pod 'AFNetworking'
+    pod 'RxSwift'
+    pod 'RxCocoa'
+    pod 'RxBlocking'
+    
+end
 
-
+target 'StreetArtViewTests' do
+    
+    pod 'RxTests'
+    
+end
