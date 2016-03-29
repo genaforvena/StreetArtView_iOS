@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import RealmSwift
 
 class FavouritesViewController: UICollectionViewController {
     var artObjects: Array<ArtObjectUi> = []
@@ -15,6 +16,8 @@ class FavouritesViewController: UICollectionViewController {
         super.viewDidLoad()
         
         artObjects = [ArtObjectUi.createStub("13", name: "Vasya's"), ArtObjectUi.createStub("1223", name: "Peter"), ArtObjectUi.createStub("1223", name: "Peter"), ArtObjectUi.createStub("1223", name: "Peter")]
+//        let uiRealm = try! Realm()
+//        artObjects = uiRealm.objects(Re)
     }
     
     override func didReceiveMemoryWarning() {
@@ -30,6 +33,11 @@ class FavouritesViewController: UICollectionViewController {
     
     override func collectionView(collectionView: UICollectionView?, numberOfItemsInSection section: Int) -> Int {
         return artObjects.count
+    }
+    
+    override func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
+        let artObjectDetailController = ArtObjectDetailController()
+        self.navigationController?.pushViewController(artObjectDetailController, animated: true)
     }
     
     override func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {

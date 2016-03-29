@@ -16,4 +16,10 @@ class ArtObjectDetailController : UIViewController {
     @IBOutlet weak var author: UILabel!
     @IBOutlet weak var artObjectTitle: UILabel!
     @IBOutlet weak var image: UIImageView!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        title = "HEY HEY HEY"
+    }
 }
