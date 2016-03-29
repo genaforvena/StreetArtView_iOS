@@ -20,7 +20,6 @@ protocol IDataSource {
 
 class DataSource : IDataSource {
     static let instance: IDataSource = DataSource()
-    let realm = try! Realm()
     
     private init() {}
     

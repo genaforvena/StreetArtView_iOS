@@ -9,7 +9,12 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods.xcscheme</key>
+		<key>Pods-StreetArtView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-StreetArtViewTests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -47,7 +52,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>017C6AF04FA1D0FEA2EFE215003AF54E</key>
+		<key>1ADF2115A56B4253EFF23B05B30DF8D8</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -57,32 +62,37 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>395DBE5B96DE3CC6123FF20C7EB1F30B</key>
+		<key>207EE33F4A565FC83A0DC85792487243</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>69FB7188EA94F6EA12B0CCE29935B7C1</key>
+		<key>2D7FA65F916212DA3B3223E40A1061CB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>75C051AB8BE55B1C71A0386D718E121D</key>
+		<key>5FCC242A9260F12D156B07A910B65008</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>78141AE0AD5337E81F1F630A398FC9EC</key>
+		<key>6B5FC366DBD32F3DCC8F3BC473A07FD7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A7BB0055DD725B26175A68FC8929C06C</key>
+		<key>C5E91B56168C7E1AC8A2931F7DF55D7C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>CEACEE37A21393E1C391088ACD26C2A4</key>
+		<key>EDA9DD995E709E4611A62BEE8DBF58F9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F07ED0986B933B9DABA40FA42A08C863</key>
 		<dict>
 			<key>primary</key>
 			<true/>

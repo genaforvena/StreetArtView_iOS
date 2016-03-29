@@ -33,4 +33,21 @@ class ArtObjectUi {
         lng = realmObject.location?.lng
         isFavourite = realmObject.isFavourite
     }
+    
+    static func createStub(id: String, name: String) -> ArtObjectUi {
+        return ArtObjectUi(id: id, name: name)
+    }
+    
+    private init(id: String, name: String) {
+        self.id = id
+        self.name = name
+        self.authors = [AuthorUi.createStub("ty", name: "naem")]
+        self.description = "Some description"
+        self.thumbPicUrl = ""
+        self.picsUrl = []
+        self.lat = 45
+        self.lng = 45
+        self.address = "Some address"
+        self.isFavourite = false
+    }
 }

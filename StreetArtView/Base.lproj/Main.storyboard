@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Map View Controller-->
@@ -93,20 +94,43 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="BIH-aa-SCq">
-                            <size key="itemSize" width="50" height="50"/>
+                            <size key="itemSize" width="178" height="170"/>
                             <size key="headerReferenceSize" width="0.0" height="0.0"/>
                             <size key="footerReferenceSize" width="0.0" height="0.0"/>
                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                         </collectionViewFlowLayout>
                         <cells>
-                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="wjc-wh-syP">
-                                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="wjc-wh-syP" customClass="ArtObjectItemView" customModule="StreetArtView" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="178" height="170"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                    <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="178" height="170"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Qka-MT-VVn">
+                                            <rect key="frame" x="0.0" y="0.0" width="178" height="170"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="170" id="CAq-jh-UtV"/>
+                                                <constraint firstAttribute="width" constant="198" id="Q61-Ts-EDh"/>
+                                            </constraints>
+                                        </imageView>
+                                    </subviews>
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </view>
+                                <color key="backgroundColor" red="0.43023257700221285" green="1" blue="0.19513004752785157" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="Qka-MT-VVn" firstAttribute="top" secondItem="wjc-wh-syP" secondAttribute="top" id="9Lh-rx-2Kc"/>
+                                    <constraint firstAttribute="bottomMargin" secondItem="Qka-MT-VVn" secondAttribute="bottom" id="Fhf-W3-C3y"/>
+                                    <constraint firstItem="Qka-MT-VVn" firstAttribute="leading" secondItem="wjc-wh-syP" secondAttribute="leadingMargin" id="JKK-5v-Bzd"/>
+                                    <constraint firstAttribute="bottom" secondItem="Qka-MT-VVn" secondAttribute="bottom" id="YZ7-Aw-2Bw"/>
+                                    <constraint firstItem="Qka-MT-VVn" firstAttribute="leading" secondItem="wjc-wh-syP" secondAttribute="leading" id="Yff-c9-233"/>
+                                    <constraint firstAttribute="trailing" secondItem="Qka-MT-VVn" secondAttribute="trailing" id="cyn-dw-uYL"/>
+                                    <constraint firstItem="Qka-MT-VVn" firstAttribute="top" secondItem="wjc-wh-syP" secondAttribute="topMargin" id="ggt-b8-Uo3"/>
+                                    <constraint firstAttribute="trailingMargin" secondItem="Qka-MT-VVn" secondAttribute="trailing" id="rJG-eb-xAG"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="image" destination="Qka-MT-VVn" id="trq-YJ-fXB"/>
+                                </connections>
                             </collectionViewCell>
                         </cells>
                         <connections>

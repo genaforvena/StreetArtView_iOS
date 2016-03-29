@@ -8,15 +8,13 @@
 
 import UIKit
 
-class FavouritesViewController: UICollectionViewController, UICollectionViewDelegateFlowLayout {
-    private let sectionInsets = UIEdgeInsets(top: 50.0, left: 20.0, bottom: 50.0, right: 20.0)
-    
-    var data: Array<ArtObjectUi>?
+class FavouritesViewController: UICollectionViewController {
+    var artObjects: Array<ArtObjectUi> = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        data = DataSource.instance.listArtObjects()
+        
+        artObjects = [ArtObjectUi.createStub("13", name: "Vasya's"), ArtObjectUi.createStub("1223", name: "Peter"), ArtObjectUi.createStub("1223", name: "Peter"), ArtObjectUi.createStub("1223", name: "Peter")]
     }
     
     override func didReceiveMemoryWarning() {
@@ -24,32 +22,18 @@ class FavouritesViewController: UICollectionViewController, UICollectionViewDele
         // Dispose of any resources that can be recreated.
     }
     
-    override func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
+    // #pragma mark UICollectionViewDataSource
+    
+    override func numberOfSectionsInCollectionView(collectionView: UICollectionView?) -> Int {
         return 1
     }
     
-    override func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return data!.count
+    override func collectionView(collectionView: UICollectionView?, numberOfItemsInSection section: Int) -> Int {
+        return artObjects.count
     }
     
-    //3
     override func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCellWithReuseIdentifier("reuseIdentifier", forIndexPath: indexPath)
-        cell.backgroundColor = UIColor.blackColor()
+        let cell : ArtObjectItemView = collectionView.dequeueReusableCellWithReuseIdentifier("Cell", forIndexPath: indexPath) as! ArtObjectItemView
         return cell
     }
-    
-    func collectionView(collectionView: UICollectionView,
-                        layout collectionViewLayout: UICollectionViewLayout,
-                               sizeForItemAtIndexPath indexPath: NSIndexPath) -> CGSize {
-        return CGSize(width: 100, height: 100)
-    }
-    
-    func collectionView(collectionView: UICollectionView,
-                        layout collectionViewLayout: UICollectionViewLayout,
-                               insetForSectionAtIndex section: Int) -> UIEdgeInsets {
-        return sectionInsets
-    }
-    
-    
 }

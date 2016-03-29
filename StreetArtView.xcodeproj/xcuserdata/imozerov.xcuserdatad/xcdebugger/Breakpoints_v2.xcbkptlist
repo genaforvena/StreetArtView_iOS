@@ -6,11 +6,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "StreetArtView/FavouritesViewController.swift"
-            timestampString = "480511627.785771"
+            timestampString = "480951823.31812"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "11"
@@ -19,49 +19,64 @@
             landmarkType = "3">
             <Locations>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "StreetArtView.FavouritesViewController.__deallocating_deinit"
+                  moduleName = "StreetArtView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/imozerov/Developer/StreetArtView_iOS/StreetArtView/FavouritesViewController.swift"
+                  timestampString = "480951826.467314"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "StreetArtView.FavouritesViewController.init (collectionViewLayout : __ObjC.UICollectionViewLayout) -&gt; StreetArtView.FavouritesViewController"
                   moduleName = "StreetArtView"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/imozerov/Developer/StreetArtView/StreetArtView/FavouritesViewController.swift"
-                  timestampString = "480511894.589842"
+                  urlString = "file:///Users/imozerov/Developer/StreetArtView_iOS/StreetArtView/FavouritesViewController.swift"
+                  timestampString = "480951826.46778"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "11"
-                  endingLineNumber = "11"
-                  offsetFromSymbolStart = "68">
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "20">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "StreetArtView.FavouritesViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; StreetArtView.FavouritesViewController"
                   moduleName = "StreetArtView"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/imozerov/Developer/StreetArtView/StreetArtView/FavouritesViewController.swift"
-                  timestampString = "480511894.590245"
+                  urlString = "file:///Users/imozerov/Developer/StreetArtView_iOS/StreetArtView/FavouritesViewController.swift"
+                  timestampString = "480951826.468016"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "11"
-                  endingLineNumber = "11"
-                  offsetFromSymbolStart = "107">
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "60">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "StreetArtView.FavouritesViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;StreetArtView.FavouritesViewController&gt;"
                   moduleName = "StreetArtView"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/imozerov/Developer/StreetArtView/StreetArtView/FavouritesViewController.swift"
-                  timestampString = "480511894.590791"
+                  urlString = "file:///Users/imozerov/Developer/StreetArtView_iOS/StreetArtView/FavouritesViewController.swift"
+                  timestampString = "480951826.468259"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "11"
-                  endingLineNumber = "11"
-                  offsetFromSymbolStart = "105">
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "20">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -77,9 +92,7 @@
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "9"
-            endingLineNumber = "9"
-            landmarkName = "RealmArtObject"
-            landmarkType = "3">
+            endingLineNumber = "9">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

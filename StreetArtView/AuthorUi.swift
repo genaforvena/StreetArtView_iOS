@@ -18,4 +18,14 @@ class AuthorUi {
         name = realmObject.name
         photoUrl = realmObject.photo
     }
+    
+    static func createStub(id: String, name: String) -> AuthorUi {
+        return AuthorUi(id: id, name: name)
+    }
+    
+    private init(id: String, name: String) {
+        self.id = id
+        self.name = name
+        self.photoUrl = ""
+    }
 }

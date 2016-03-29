@@ -11,11 +11,11 @@ import Foundation
 class RealmArtObject: Object {
     dynamic var id: String?
     dynamic var name: String?
-    var authors: List<RealmAuthor> = List()
+    let authors = List<RealmAuthor>()
     dynamic var objectDescription: String?
     dynamic var thumbPicUrl: String?
     dynamic var location: RealmLocation?
-    var picUrls: List<RealmString> = List()
+    let picUrls = List<RealmString>()
     dynamic var isFavourite: Bool = false
     
     override static func primaryKey() -> String? {
