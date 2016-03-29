@@ -25,6 +25,7 @@
 		7477F3461CA2F497005F6D3A /* StreetArtViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7477F3451CA2F497005F6D3A /* StreetArtViewUITests.swift */; };
 		74952D311CA40651008AEA8F /* FavouritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74952D301CA40651008AEA8F /* FavouritesViewController.swift */; };
 		74F17D8B1CAAB968001421E8 /* ArtObjectItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F17D8A1CAAB968001421E8 /* ArtObjectItemView.swift */; };
+		74F17D8E1CAAC5B3001421E8 /* ArtObjectDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F17D8D1CAAC5B3001421E8 /* ArtObjectDetailController.swift */; };
 		8325D599478CE29060C6B78B /* Pods_StreetArtView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F22222B342B67449DEA5FC88 /* Pods_StreetArtView.framework */; };
 /* End PBXBuildFile section */
 
@@ -71,6 +72,7 @@
 		7477F3471CA2F497005F6D3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74952D301CA40651008AEA8F /* FavouritesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavouritesViewController.swift; sourceTree = "<group>"; };
 		74F17D8A1CAAB968001421E8 /* ArtObjectItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtObjectItemView.swift; sourceTree = "<group>"; };
+		74F17D8D1CAAC5B3001421E8 /* ArtObjectDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtObjectDetailController.swift; sourceTree = "<group>"; };
 		7DC321D93F58836E5E3600DC /* Pods-StreetArtView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StreetArtView.release.xcconfig"; path = "Pods/Target Support Files/Pods-StreetArtView/Pods-StreetArtView.release.xcconfig"; sourceTree = "<group>"; };
 		8B06C0D2B00BF582F82575B3 /* Pods-StreetArtViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StreetArtViewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-StreetArtViewTests/Pods-StreetArtViewTests.release.xcconfig"; sourceTree = "<group>"; };
 		A402228E0BAC104B0CE98F08 /* Pods-StreetArtViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StreetArtViewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StreetArtViewTests/Pods-StreetArtViewTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -143,6 +145,7 @@
 				7477F3251CA2F496005F6D3A /* MapViewController.swift */,
 				7477F3271CA2F496005F6D3A /* ListViewController.swift */,
 				74952D301CA40651008AEA8F /* FavouritesViewController.swift */,
+				74F17D8D1CAAC5B3001421E8 /* ArtObjectDetailController.swift */,
 			);
 			name = ui;
 			sourceTree = "<group>";
@@ -470,6 +473,7 @@
 				7477F3241CA2F496005F6D3A /* AppDelegate.swift in Sources */,
 				7416BE761CA52E3B00A0B33C /* DataSource.swift in Sources */,
 				7477F3261CA2F496005F6D3A /* MapViewController.swift in Sources */,
+				74F17D8E1CAAC5B3001421E8 /* ArtObjectDetailController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
